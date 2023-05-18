@@ -26,9 +26,7 @@
   <!-- <author email="jane.doe@example.com">Jane Doe</author> -->
 
   <depend>rclpy</depend>
-  <!-- TODO: ros_numpy is not yet ported to ROS 2
-             See: https://github.com/eric-wieser/ros_numpy/issues/20
-       exec_depend>ros_numpy</exec_depend -->
+  <exec_depend>ros2_numpy</exec_depend>
 
   <export>
     <build_type>ament_python</build_type>

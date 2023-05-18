@@ -73,7 +73,7 @@ def main():
             configure_wrist('dex')
 
     except KeyboardInterrupt:
-        node.get_logger().info('interrupt received, so shutting down')
+        print('interrupt received, so shutting down')
     
 if __name__ == "__main__":
     main()
